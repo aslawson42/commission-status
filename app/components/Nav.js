@@ -6,22 +6,22 @@ function Nav () {
     <ul className='nav'>
       <li>
         <NavLink exact activeClassName='active' to='/'>
-          Home
+          <i className="material-icons">home</i><br />Home
         </NavLink>
       </li>
       <li>
         <NavLink activeClassName='active' to='/search'>
-          Search
+          <i className="material-icons">search</i><br />Search
         </NavLink>
       </li>
       <li>
         <NavLink activeClassName='active' to='/user'>
-          User
+          <i className="material-icons">account_circle</i><br />User
         </NavLink>
       </li>
       <li>
         <NavLink activeClassName='active' to='/options'>
-          Options
+          <i className="material-icons">settings</i><br />Options
         </NavLink>
       </li>
     </ul>

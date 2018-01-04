@@ -16,17 +16,17 @@ class Options extends React.Component {
         </ul>
         <h2>Notification Options</h2>
         <ul>
-          <li>Email - For Openings, For Closings</li>
-          <li>Text - For Openings, For Closings</li>
-          <li>Push - For Openings, For Closings</li>
+          <li><i className="material-icons check-on">check_circle</i>Email - <i className="material-icons">check_box</i>For Openings, <i className="material-icons">check_box_outline_blank</i>For Closings</li>
+          <li><i className="material-icons check-off">cancel</i>Text - <i className="material-icons">check_box_outline_blank</i>For Openings, <i className="material-icons">check_box</i>For Closings</li>
+          <li><i className="material-icons check-off">cancel</i>Push - <i className="material-icons">check_box</i>For Openings, <i className="material-icons">check_box_outline_blank</i>For Closings</li>
         </ul>
         <h2>Followed List</h2>
-        <h3>Unfollow Selected</h3>
+        <h3><i className="material-icons">indeterminate_check_box</i>Unfollow Selected</h3>
         <ul>
-          <li>Alice - Unfollow</li>
-          <li>Bob - Unfollow</li>
-          <li>Carlos - Unfollow</li>
-          <li>Dmitri - Unfollow</li>
+          <li><i className="material-icons">check_box</i>Alice - <strong>Unfollow</strong></li>
+          <li><i className="material-icons">check_box_outline_blank</i>Bob - <strong>Unfollow</strong></li>
+          <li><i className="material-icons">check_box</i>Carlos - <strong>Unfollow</strong></li>
+          <li><i className="material-icons">check_box_outline_blank</i>Dmitri - <strong>Unfollow</strong></li>
         </ul>
       </div>
     )
