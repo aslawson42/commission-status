@@ -16,9 +16,9 @@ class Options extends React.Component {
         </ul>
         <h2>Notification Options</h2>
         <ul>
-          <li><i className="material-icons check-on">check_circle</i>Email - <i className="material-icons">check_box</i>For Openings, <i className="material-icons">check_box_outline_blank</i>For Closings</li>
-          <li><i className="material-icons check-off">cancel</i>Text - <i className="material-icons">check_box_outline_blank</i>For Openings, <i className="material-icons">check_box</i>For Closings</li>
-          <li><i className="material-icons check-off">cancel</i>Push - <i className="material-icons">check_box</i>For Openings, <i className="material-icons">check_box_outline_blank</i>For Closings</li>
+          <li><i className="material-icons button-green">check_circle</i>Email - <i className="material-icons">check_box</i>For Openings, <i className="material-icons">check_box_outline_blank</i>For Closings</li>
+          <li><i className="material-icons button-red">cancel</i>Text - <i className="material-icons">check_box_outline_blank</i>For Openings, <i className="material-icons">check_box</i>For Closings</li>
+          <li><i className="material-icons button-red">cancel</i>Push - <i className="material-icons">check_box</i>For Openings, <i className="material-icons">check_box_outline_blank</i>For Closings</li>
         </ul>
         <h2>Followed List</h2>
         <h3><i className="material-icons">indeterminate_check_box</i>Unfollow Selected</h3>
