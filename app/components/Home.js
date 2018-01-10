@@ -4,7 +4,7 @@ var Link = require('react-router-dom').Link;
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className='main'>
         <h1>Commission Status</h1>
       </div>
     )

@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-family: Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 }
 
 ul {
@@ -15,13 +15,32 @@ a {
   color: #d0021b;
 }
 
+.main {
+  margin-top: 100px;
+}
+
+.nav-container {
+  display: block;
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
 .nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 50px;
 }
   .nav li {
     margin-right: 15px;
     text-align: center;
   }
+    .nav li a {
+      color: white;
+    }
 .active {
   font-weight: bold;
 }

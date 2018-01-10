@@ -71,7 +71,7 @@ class Follow_List extends React.Component {
 class Options extends React.Component {
   render() {
     return (
-      <div>
+      <div className='main'>
         <h1>Options</h1>
         <h2>User Options</h2>
         <ul>

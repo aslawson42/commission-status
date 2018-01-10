@@ -31,7 +31,7 @@ class Status extends React.Component {
 class User extends React.Component {
   render() {
     return (
-      <div>
+      <div className='main'>
         <h1>User</h1>
         <h2><i className="material-icons md-48">account_circle</i> Andrew</h2>
         <h3>100 Followers</h3>
