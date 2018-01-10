@@ -1,39 +1,13 @@
 var React = require('react');
 var Link = require('react-router-dom').Link;
 var Publish = require('./Publish');
-
-class Follow extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {isToggleOn: true};
-
-    // This binding is necessary to make `this` work in the callback
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    this.setState(prevState => ({
-      isToggleOn: !prevState.isToggleOn
-    }));
-  }
-
-  render() {
-    return (
-      <button
-        className={this.state.isToggleOn ? 'button-green' : 'button-red'}
-        onClick={this.handleClick}>
-          {this.state.isToggleOn ? 'Follow' : 'Unfollow'}
-      </button>
-    );
-  }
-}
+var Follow = require('./Follow');
 
 class Status extends React.Component {
   constructor(props) {
     super(props);
     this.state = {isToggleOn: false};
 
-    // This binding is necessary to make `this` work in the callback
     this.handleClick = this.handleClick.bind(this);
   }
 
